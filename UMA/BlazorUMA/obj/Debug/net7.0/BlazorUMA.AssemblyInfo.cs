@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorUMA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e327e826aee6a292f87ff36d8bcf32e3481f42a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorUMA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorUMA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

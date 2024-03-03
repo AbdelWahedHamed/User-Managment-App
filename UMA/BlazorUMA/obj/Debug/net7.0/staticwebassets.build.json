@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Jvc+kaBnQnOjdM8z/e8N0CcSf2vyMno3upYLe1wQGlk=",
+  "Hash": "/1uhuiBaoQ8v2shtirEsn/ZH37vidP7fgjGeTQ3fslM=",
   "Source": "BlazorUMA",
   "BasePath": "_content/BlazorUMA",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BlazorUMA\\wwwroot",
       "Source": "BlazorUMA",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "Pattern": "**"
     }
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "C:\\Users\\HP\\.nuget\\packages\\syncfusion.blazor\\24.2.6\\staticwebassets\\styles\\tailwind-dark.css"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorUMA.styles.css",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorUMA.styles.css",
       "SourceId": "BlazorUMA",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "BlazorUMA.styles.css",
       "AssetKind": "All",
@@ -2123,13 +2123,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorUMA.styles.css"
+      "OriginalItemSpec": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorUMA.styles.css"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorUMA.bundle.scp.css",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorUMA.bundle.scp.css",
       "SourceId": "BlazorUMA",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "BlazorUMA.bundle.scp.css",
       "AssetKind": "All",
@@ -2142,13 +2142,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorUMA.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorUMA.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\css\\site.css",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\favicon.png",
       "SourceId": "BlazorUMA",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\wwwroot\\",
       "BasePath": "_content/BlazorUMA",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

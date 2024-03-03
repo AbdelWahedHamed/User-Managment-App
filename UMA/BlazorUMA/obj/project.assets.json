@@ -3709,11 +3709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\BlazorUMA.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\BlazorUMA.csproj",
       "projectName": "BlazorUMA",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\BlazorUMA.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\BlazorUMA.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\BlazorUMA\\BlazorUMA\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\User Managment App\\UMA\\BlazorUMA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
