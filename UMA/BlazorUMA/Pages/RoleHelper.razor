@@ -1,0 +1,71 @@
+﻿@using BlazorUMA.Models
+@using BlazorUMA.Services
+@inject IRoleService roleService
+@inject NavigationManager navManger
+@inject IJSRuntime JSRuntime
+@page "/role"
+
+<button @onclick="GoToAddRole" class="btn btn-success">Add Role</button>
+<br />
+<br />
+
+<table class="table table-bordered table-striped table-hover ">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th></th>
+
+		</tr>
+	</thead>
+	<tbody>
+		@if (Roles.Count == 0 || Roles == null)
+		{
+			<span>No Data</span>
+		}
+		else
+		{
+			@foreach (var role in Roles)
+			{
+				<tr>
+					<td>@role.Id</td>
+					<td>@role.RoleName</td>
+					<td>
+						<button class="btn btn-outline-danger" @onclick="@(() => DeleteRole(role))">Delete</button>
+					</td>
+
+				</tr>
+			}
+		}
+	</tbody>
+	<tfoot></tfoot>
+</table>
+
+
+@code {
+	List<Role> Roles = new List<Role>();
+
+	private void GoToAddRole()
+	{
+		navManger.NavigateTo("./addRole");
+	}
+
+	protected override void OnInitialized()
+	{
+		Roles = roleService.GetRoles();
+	}
+
+	private  void DeleteRole(Role role)
+	{
+		if (roleService.DeleteRole(role))
+		{
+			RefreshPage();
+		}
+
+	}
+	private async Task RefreshPage()
+	{
+		await JSRuntime.InvokeVoidAsync("location.reload");
+	}
+	
+}

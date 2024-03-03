@@ -1,0 +1,65 @@
+﻿@using BlazorUMA.Models
+@using BlazorUMA.Services
+@inject IUserService userService
+@inject IRoleService roleService
+@inject NavigationManager navManger
+@inject IJSRuntime JSRuntime
+@page "/user"
+
+<button @onclick="GoToAddUser" class="btn btn-success">Add User</button>
+<br />
+<br />
+
+<table class="table table-bordered table-striped table-hover ">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Date of birth</th>
+			<th>Role</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (userService.GetUsers().Count == 0 && userService.GetUsers() == null)
+		{
+			<span>No Data</span>
+		}
+		else
+		{
+			@foreach (var user in userService.GetUsers())
+			{
+				<tr>
+						<td>@user.Name</td>
+						<td>@user.Email</td>
+						<td>@user.DateOfBirth</td>
+						<td>@user.Role.RoleName</td>
+					<td>
+						<button class="btn btn-outline-danger" @onclick="@(() => DeleteUser(user))">Delete</button>
+					</td>
+				</tr>
+			}
+		}
+	</tbody>
+	<tfoot></tfoot>
+</table>
+
+
+
+@code {
+
+	private void GoToAddUser()
+	{
+		navManger.NavigateTo("./addUser");
+	}
+	private void DeleteUser(User user)
+	{
+		userService.DeleteUser(user);
+		RefreshPage();
+	}
+	private async Task RefreshPage()
+	{
+		await JSRuntime.InvokeVoidAsync("location.reload");
+	}
+
+}

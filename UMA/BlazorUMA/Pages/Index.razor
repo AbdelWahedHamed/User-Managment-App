@@ -1,0 +1,23 @@
+﻿@page "/home"
+@inject NavigationManager navManger
+
+<PageTitle>Welcome to User Managment App</PageTitle>
+<h3>
+	Welcome to User Managment App
+</h3>
+
+<button @onclick="NavigateToAllUsers">All Users</button>
+<button @onclick="NavigateToAllRoles">All Roles</button>
+<button @onclick="NavigateToAddUser">Add User</button>
+<button @onclick="NavigateToAddRole">Add Role</button>
+
+
+
+@code
+{
+	private void NavigateToAllUsers() { navManger.NavigateTo("./user"); }
+	private void NavigateToAllRoles() { navManger.NavigateTo("./role"); }
+	private void NavigateToAddUser() { navManger.NavigateTo("./addUser"); }
+	private void NavigateToAddRole() { navManger.NavigateTo("./addRole"); }
+}
+

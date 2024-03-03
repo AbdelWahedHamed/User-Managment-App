@@ -1,0 +1,68 @@
+﻿@using BlazorUMA.Models
+@using BlazorUMA.Services
+@using Syncfusion.Blazor
+@inject IUserService userService
+@inject IRoleService roleService
+@inject NavigationManager navManger
+@page "/addUser"
+
+<h3>Add User</h3><br />
+<button @onclick="ReturnToUserpage" class="btn btn-secondary"> Return To User Page</button>
+<br /><br />
+
+<EditForm Model="user" OnValidSubmit="SaveChanges">
+	<DataAnnotationsValidator></DataAnnotationsValidator>
+
+	<label for="Name" class="from-lable">Name:</label>
+	<InputText class="form-control" placeholder="Name" @bind-Value="user.Name"></InputText>
+	<ValidationMessage For="(() => user.Name)"></ValidationMessage><br/>
+
+	<label for="email" class="from-lable">Email:</label>
+	<InputText class="form-control" placeholder="Email" @bind-Value="user.Email"></InputText>
+	<ValidationMessage For="(() => user.Email)"></ValidationMessage><br/>
+
+	<label for="Password" class="from-lable">Password:</label>
+	<InputText typeof="password" class="form-control" placeholder="Password" @bind-Value="user.Password"></InputText>
+	<ValidationMessage For="(() => user.Password)"></ValidationMessage><br/>
+
+	<label for="DateOfBrith" class="from-lable">Date of birth:</label>
+	<InputDate class="form-control" placeholder="Date of brith" @bind-Value="user.DateOfBirth"></InputDate>
+	<ValidationMessage For="(() => user.DateOfBirth)"></ValidationMessage><br/>
+
+	<label for="selectedItem">Select a Role:</label>
+	<InputSelect @bind-Value="user.RoleId">
+		@foreach (var item in roles)
+		{
+			<option value="@item.Id">@item.RoleName</option>
+		}
+	</InputSelect>
+	<br /><br />
+
+	<button class="btn btn-outline-primary " type="submit">Add User </button>
+</EditForm>
+
+
+
+@code {
+
+	private int SelectedItem ;
+	private User user = new User();
+	private List<Role> roles = new List<Role>();
+
+	private void ReturnToUserpage()
+	{
+		navManger.NavigateTo("./user");
+	}
+
+	protected override void OnInitialized()
+	{
+		roles = roleService.GetRoles();
+	}
+
+
+	private void SaveChanges()
+	{
+		userService.AddUser(user);
+		navManger.NavigateTo("./user");
+	}
+}

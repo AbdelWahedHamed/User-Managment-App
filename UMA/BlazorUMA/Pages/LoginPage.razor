@@ -1,0 +1,44 @@
+﻿@page "/"
+@inject IUserService userService
+@inject NavigationManager navManger
+@layout LoginLayout
+@using BlazorUMA.Services
+
+
+<center>
+	<h1 style=" background-color:aliceblue;color:darkgreen"
+		class="alert alert-info text-center">
+		Login to User Managment App
+	</h1>
+	<br /><br /><br /><br />
+	<div class="col-12 row-cols-3">
+		<label for="Email">Email:</label>
+		<br />
+		<input type="text" @bind="email" ></input>
+		<br /><br /> 
+		<label for="password">Password:</label>
+		<br />
+		<input type="password" @bind="password"></input>
+			<br /><br />
+		<button class="btn btn-outline-primary " @onclick="login">Login </button>
+			<br /><br />
+		<a href="./addUser">Sign Up</a>
+	</div>
+</center>
+
+@code {
+	string email, password;
+
+	private void login()
+	{
+		if(userService.GetUserEmailAndPassword(email , password))
+		{
+			navManger.NavigateTo("./home");
+		}
+		else
+		{
+			Console.WriteLine("Email or Password isn't correct");
+		}
+	}
+
+}

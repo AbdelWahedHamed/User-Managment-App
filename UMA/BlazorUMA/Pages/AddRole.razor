@@ -1,0 +1,58 @@
+﻿@using BlazorUMA.Models
+@using BlazorUMA.Services
+@inject IRoleService roleService
+@inject NavigationManager navManger
+@page "/addRole"
+<h3> Add Role</h3>
+<br />
+
+<div>
+<button @onclick="ReturnToRolepage" class="btn btn-secondary"> Return To Role Page</button>
+	<br/><br />
+</div>
+
+<div>
+<input type="text" placeholder="Name" @bind="role.RoleName"></input>
+	<br /><br />
+
+</div>
+
+<div>
+<button class="btn btn-outline-primary " @onclick="SaveChanges">Add Role </button>
+	<br /><br />
+
+</div>
+
+@*<EditForm Model="role" OnValidSubmit="SaveChanges">
+	<DataAnnotationsValidator></DataAnnotationsValidator>
+	
+	<label for="Id" class="from-lable">ID:</label>
+	<InputNumber class="form-control" placeholder="Id" @bind-Value="role.Id"></InputNumber><br />
+
+	<label for="Name" class="from-lable">Name:</label>
+	<InputText class="form-control" placeholder="Name" @bind-Value="role.RoleName"></InputText>
+	<ValidationMessage For="(() => role.RoleName)"></ValidationMessage>
+
+	<br /><br/>
+	<button class="btn btn-outline-primary " type="submit">Add Role </button>
+</EditForm>*@
+
+
+@code {
+
+	Role role = new Role();
+
+	private void ReturnToRolepage()
+	{
+		navManger.NavigateTo("./role");
+	}
+
+	private  void SaveChanges()
+	{
+
+		if (roleService.AddRole(role))
+		{
+			navManger.NavigateTo("./role");
+		}
+	}
+}
